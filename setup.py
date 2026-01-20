@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='mekarosi',
     maintainer_email='mekarosi_assa@yahoo.com',
-    description='TODO: Package description',
+    description='Python parameter',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'minimal_param_node = python_parameters.python_parameters_node:main',
         ],
     },
 )
